@@ -11,7 +11,7 @@ import openai
 import re
 
 
-openai.api_key = ""  # supply your API key however you choose
+openai.api_key = "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"  # supply your API key however you choose
 
 SECRET_KEY = 'xzAMtIhuCZsiNIw3NuxAVDCbsI9VDfyy'
 app = Flask(__name__)
@@ -51,4 +51,4 @@ def incoming_sms():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=6000)
+    app.run(debug=True)
