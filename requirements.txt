@@ -1,2 +1,2 @@
-twilio
-openai
+twilio==7.17.0
+openai==0.27.2
